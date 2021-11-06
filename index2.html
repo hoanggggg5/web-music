@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- <link rel="stylesheet/less" type="text/css" href="style.less" /> -->
+  <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="style2.css" />
+
+ </head>
+ <body>
+  <!-- <header class="header">
+   <div class="header-logo">
+    <a href="" class="header-logo-link">
+     <i class="fas fa-headphones-alt"></i>
+    </a>
+   </div>
+   <form class="header-form" role="search">
+    <div class="header-form-search">
+     <div class="header-form-search-input">
+      <span class="header-form-search-icon">
+       <button type="submit" class="">
+        <i class="fa fa-search"></i>
+       </button>
+      </span>
+      <input type="text" class="" placeholder="Search songs, albums..." />
+     </div>
+    </div>
+   </form>
+   <div class="header-right">
+    <ul class="header-right-list">
+     <li class="header-right-bell">
+      <a href="#" class="header-right-bell-link" data-toggle="dropdown">
+       <i class="far fa-bell"></i>
+       <span class="header-right-bell-count" style="display: inline-block"
+        >3</span
+       >
+      </a>
+     </li>
+     <li class="header-right-user">
+      <a href="#" class="header-right-user-link" data-toggle="dropdown">
+       John.Smith <b class="caret"></b>
+       <span class="">
+        <img src="a2.png" alt="..." />
+       </span>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header> -->
+  <div class="container">
+   <div class="container-title">
+    <h2 class="container-title-left">
+     Discover
+     <span class="musicbar" style="width: 20px; height: 20px">
+      <span class="bar1 a1 bg-primary lter"></span>
+      <span class="bar2 a2 bg-info lt"></span>
+      <span class="bar3 a3 bg-success"></span>
+      <span class="bar4 a4 bg-warning dk"></span>
+      <span class="bar5 a5 bg-danger dker"></span>
+     </span>
+    </h2>
+    <a
+     href="#"
+     class="container-title-right btn-sync"
+     data-toggle="class:fa-spin"
+     ><i class="fas fa-sync i-lg inline" id="refresh"> </i
+    ></a>
+   </div>
+   <div class="container-product">
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+    <div class="container-product-item col-xs-6 col-sm-4 col-md-3 col-lg-2">
+     <div class="product-item">
+      <div class="product-item-over" style="position: relative">
+       <div class="item-overlay active">
+        <div class="product-item-star">
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star text-muted"></i>
+         <i class="fa fa-star text-muted"></i>
+        </div>
+        <div class="product-item-play">
+         <a href="#" data-toggle="class">
+          <i class="fas fa-play i-2x text"></i>
+          <i class="icon-control-pause i-2x text-active"></i>
+         </a>
+        </div>
+        <div class="product-item-react">
+         <a href="#" class="item-react-heart active" data-toggle="class">
+          <i class="fa fa-heart-o text"></i>
+          <i class="fa fa-heart text-active text-danger"></i>
+         </a>
+         <a href="#" class="item-react-add" data-toggle="class">
+          <i class="fa fa-plus-circle text"></i>
+          <i class="fa fa-check-circle no-active"></i>
+         </a>
+        </div>
+       </div>
+       <a href="#">
+        <img src="./p1.jpg" alt="" class="product-item-img" />
+       </a>
+      </div>
+      <div class="product-item-title">
+       <a href="#" class="item-title-top">Vivamus vel tincidunt libero</a>
+       <a href="#" class="item-title-bot">Lauren Taylor</a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="container-new-top">
+    <div class="new-song">
+     <div class="container-title">
+      <h2 class="container-title-left">New Songs</h2>
+     </div>
+     <div class="new-song-list">
+      <div class="new-song-list-item">
+       <div class="new-song-list-item-avatar">
+        <img src="./a2.png" alt="" />
+       </div>
+       <div class="new-song-list-item-title">
+        <div class="item-title-top">Spring rain</div>
+        <div class="item-title-bot">Miaow</div>
+       </div>
+      </div>
+      <div class="new-song-list-item">
+       <div class="new-song-list-item-avatar">
+        <img src="./a2.png" alt="" />
+       </div>
+       <div class="new-song-list-item-title">
+        <div class="item-title-top">Spring rain</div>
+        <div class="item-title-bot">Miaow</div>
+       </div>
+      </div>
+      <div class="new-song-list-item">
+       <div class="new-song-list-item-avatar">
+        <img src="./a2.png" alt="" />
+       </div>
+       <div class="new-song-list-item-title">
+        <div class="item-title-top">Spring rain</div>
+        <div class="item-title-bot">Miaow</div>
+       </div>
+      </div>
+      <div class="new-song-list-item">
+       <div class="new-song-list-item-avatar">
+        <img src="./a2.png" alt="" />
+       </div>
+       <div class="new-song-list-item-title">
+        <div class="item-title-top">Spring rain</div>
+        <div class="item-title-bot">Miaow</div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="top-song">
+     <div class="container-title">
+      <h2 class="container-title-left">Top Songs</h2>
+     </div>
+     <div class="top-song-list">
+      <div class="top-song-list-item">
+       <div class="top-song-list-item-left">
+        <div class="top-song-list-item-avatar">
+         <img src="./a2.png" alt="" />
+        </div>
+        <div class="top-song-list-item-title">
+         <div class="item-title-top">Spring rain</div>
+         <div class="item-title-bot">Miaow</div>
+        </div>
+       </div>
+       <div class="top-song-list-item-right">1</div>
+      </div>
+      <div class="top-song-list-item">
+       <div class="top-song-list-item-left">
+        <div class="top-song-list-item-avatar">
+         <img src="./a2.png" alt="" />
+        </div>
+        <div class="top-song-list-item-title">
+         <div class="item-title-top">Spring rain</div>
+         <div class="item-title-bot">Miaow</div>
+        </div>
+       </div>
+       <div class="top-song-list-item-right">1</div>
+      </div>
+      <div class="top-song-list-item">
+       <div class="top-song-list-item-left">
+        <div class="top-song-list-item-avatar">
+         <img src="./a2.png" alt="" />
+        </div>
+        <div class="top-song-list-item-title">
+         <div class="item-title-top">Spring rain</div>
+         <div class="item-title-bot">Miaow</div>
+        </div>
+       </div>
+       <div class="top-song-list-item-right">1</div>
+      </div>
+      <div class="top-song-list-item">
+       <div class="top-song-list-item-left">
+        <div class="top-song-list-item-avatar">
+         <img src="./a2.png" alt="" />
+        </div>
+        <div class="top-song-list-item-title">
+         <div class="item-title-top">Spring rain</div>
+         <div class="item-title-bot">Miaow</div>
+        </div>
+       </div>
+       <div class="top-song-list-item-right">1</div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ 
+ </body>
+</html>
